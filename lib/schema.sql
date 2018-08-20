@@ -10,7 +10,7 @@ CREATE TABLE subgenres (
   name TEXT
 );
 
-CREATE TABLE authorss (
+CREATE TABLE authors (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
