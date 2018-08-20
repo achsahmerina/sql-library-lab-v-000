@@ -30,3 +30,12 @@ CREATE TABLE characters (
   author_id INTEGER,
   series_id INTEGER
 );
+
+CREATES TABLE character_books (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  motto TEXT,
+  species TEXT,
+  author_id INTEGER,
+  series_id INTEGER
+);
