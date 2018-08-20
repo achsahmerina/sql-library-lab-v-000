@@ -31,7 +31,7 @@ CREATE TABLE characters (
   series_id INTEGER
 );
 
-CREATES TABLE character_books (
+CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
   name TEXT,
   motto TEXT,
